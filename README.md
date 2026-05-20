@@ -1,37 +1,39 @@
 # 🚀 Antigravity Claude Proxy — My Setup
 
-Personal documentation of setting up Antigravity Claude Proxy on Linux.
+Multi-account Claude + Gemini API proxy load balancer running on Linux.
 
-Original tool: https://github.com/badri-s2001/antigravity-claude-proxy
+## 📌 What This Does
+- Rotates between 3 accounts (Ultra + Pro + Free) automatically
+- Prevents API rate limiting with smart account switching
+- Real-time dashboard at localhost:8080
+- Supports both Claude and Gemini APIs
 
-## My Configuration
-- 3 Accounts: Ultra + Pro + Free
-- Runtime: Node.js v24 via NVM
-- OS: Ubuntu Linux
-- Dashboard: localhost:8080
-- Version: v2.8.4
+## 🛠 Tech Stack
+- Node.js v24 via NVM
+- Antigravity Claude Proxy v2.8.4
+- Ubuntu Linux (ASUS TUF Gaming)
 
-## How to Start
+## ▶️ How to Run
+```bash
 antigravity-claude-proxy start
+```
 
-## What I Learned
+## 📊 Dashboard
+Visit http://localhost:8080 after starting
+
+## 📸 Screenshots
+### Dashboard
+![Dashboard](dashboard.png)
+
+### Terminal
+![Terminal](terminal.png)
+
+## 📚 What I Learned
 - Proxy server architecture
-- API load balancing
+- API load balancing across multiple accounts
+- HTTP request forwarding
 - Rate limit handling
 - Linux process management
 
-## Screenshots
-
-### Dashboard
-![Dashboard](dashboard.png)
-
-### Terminal
-![Terminal](terminal.png)
-
-## Screenshots
-
-### Dashboard
-![Dashboard](dashboard.png)
-
-### Terminal
-![Terminal](terminal.png)
+## 🔗 Original Tool
+https://github.com/badri-s2001/antigravity-claude-proxy
