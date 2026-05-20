@@ -27,3 +27,11 @@ antigravity-claude-proxy start
 
 ### Terminal
 ![Terminal](terminal.png)
+
+## Screenshots
+
+### Dashboard
+![Dashboard](dashboard.png)
+
+### Terminal
+![Terminal](terminal.png)
