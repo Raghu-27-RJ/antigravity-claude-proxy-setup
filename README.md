@@ -19,3 +19,11 @@ antigravity-claude-proxy start
 - API load balancing
 - Rate limit handling
 - Linux process management
+
+## Screenshots
+
+### Dashboard
+![Dashboard](dashboard.png)
+
+### Terminal
+![Terminal](terminal.png)
